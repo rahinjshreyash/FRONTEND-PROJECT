@@ -1,0 +1,363 @@
+/* LOGIN PAGE */
+
+#react-container{
+    height: 100vh;
+    width: 100vw;
+    background: #75d9e0;
+background: linear-gradient(146deg, rgba(117, 217, 224, 1) 0%, rgba(216, 216, 216, 0.91) 0%, rgba(227, 202, 209, 1) 100%);;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page{
+ height: 15vh;
+}
+
+.title{
+    color: rgb(44, 35, 207);
+    padding: 10px 0px 0px 25px;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.page > p{
+    padding-left: 20px;
+    font-family:  serif;
+}
+
+.box{
+    background-color: rgb(249, 249, 249);
+    height: 590px;
+    width: 500px;
+    border-radius: 4%;
+    
+}
+
+#login{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t {
+    
+    color: rgb(35, 35, 217);
+    padding: 10px 0px 0px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box > p{
+    font-family:  sans-serif;
+    font-weight: 100;
+    color: rgb(85, 85, 85);
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.input{
+    margin-left: 25px;
+    padding-top: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-bottom: 45px;
+}
+
+.box > input{
+    width: 400px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    padding-left: 20px;
+
+    margin-bottom: 20px;
+    
+    background-color: white;
+    border: 1px solid rgb(156, 151, 151);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+
+.login{
+    width: 450px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+    padding: 10px 0px 30px 0px;
+    
+    background-color: rgb(12, 75, 237);
+    border: 1px solid rgb(156, 151, 151);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.continue{
+    width: 450px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+    padding: 20px 0px 20px 0px;
+
+    border-radius: 4px;
+    
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(134, 131, 131);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.or{
+    width: 480px;
+    padding: 10px 0px 10px 0px;
+    color: rgb(103, 100, 100);
+    
+}
+
+.signup{
+    width: 450px;
+    height: 30px;
+    margin-top: 10px;
+    color: rgb(55, 54, 54);
+    padding-left: 30px;
+}
+
+#sign{
+    text-decoration: none;
+    font-family:   sans-serif;
+    color: rgb(12, 12, 194);
+    font-weight: 520;
+
+}
+
+
+
+/* COURSES PAGE */
+#container{
+     height: 100vh;
+    width: 100vw;
+    background: #75d9e0;
+background: linear-gradient(146deg, rgba(117, 217, 224, 1) 0%, rgba(216, 216, 216, 0.91) 0%, rgba(227, 202, 209, 1) 100%);;
+}
+
+
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.corner{
+    margin-top: 20px;
+}
+
+.corner>div{
+    display: flex;
+    width: 200px;
+}
+
+.corner >div >div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.head{
+    font-family:   sans-serif;
+    font-size: 40px;
+}
+
+.line{
+    font-family: serif;
+    color: rgb(103, 100, 100);
+    padding-top: 10px;
+    font-size: 18px;  
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+   justify-content: space-around;
+    gap: 10px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.skills{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+
+    border-radius: 2px;
+
+}
+
+.name{
+    padding-top: 10px;
+}
+
+.skills:hover{
+    border: 1px solid gray;
+}
+
+#next{
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw;
+}
+
+.next{
+     width: 250px;
+    height: 30px;
+
+    padding: 10px 0px 30px 0px;
+    
+    background-color: rgb(12, 75, 237);
+    border: 1px solid rgb(156, 151, 151);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+/* COURSES PAGE */
+
+#above{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family:  Verdana, sans-serif;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    border-bottom: 0.5px solid rgb(170, 166, 166);
+    height: 100px;
+}
+
+.searchbar{
+    border: 1px solid gray;
+    width: 300px;
+    height: 30px;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-radius: 24px;
+    display: flex;
+}
+
+.searchbar >input{
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    outline: none;
+    
+}
+
+#extra{
+    display: flex;
+    margin-top: 45px;
+    padding-top: 5px;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.course{
+    margin: 15px 0px 0px 40px;
+    font-family: sans-serif;
+}
+
+.line2{
+    margin: 15px 0px 0px 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(103, 100, 100);
+}
+
+#grid2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.boxes{
+    border: 1px solid gray;
+    height: 410px;
+    border-radius: 12px;
+}
+
+.boxes >img{
+    border-radius: 12px;
+}
+
+.boxes > h2{
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.boxes >p{
+    font-family: sans-serif;
+    padding-left: 10px;
+    color: rgb(103, 100, 100);
+    font-weight: bold;
+    
+}
+
+.boxes> div{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16.5px;
+    margin-top: 10px;
+    margin-right: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes >button{
+    width: 200px;
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: rgb(76, 108, 249);
+    color: white;
+    font-family:  sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: transparent;
+}
+
+
+
+
+
