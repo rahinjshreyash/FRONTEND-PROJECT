@@ -1,5 +1,9 @@
 // LOGIN PAGE
 
+
+
+
+
 class Page1 extends React.Component{
     render(){
         return(
@@ -20,8 +24,16 @@ class Page1 extends React.Component{
                     <span className="input">Password</span> <br></br>
                     <input type="text" placeholder="Enter your password"></input>
 
-                    <button className="login" >Login</button>
-
+              
+                       <button
+                            className="login"
+                            onClick={() => window.location.href = "page2.html"   
+                            }
+                        >
+                            Login
+                        </button>
+                  
+                         
                     <div className="or"><center>--OR--</center></div>
 
                     <button className="continue">
